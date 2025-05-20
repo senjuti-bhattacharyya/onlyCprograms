@@ -1,0 +1,235 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a ;
+    printf("Enter day number\n");
+    scanf("%d",&a);
+    switch(a)
+    {
+case 1:
+printf("Monday");
+break;
+case 2:
+printf("Tuesday");
+break;
+case 3:
+printf("Wednesday");
+break;
+case 4:
+printf("Thursday");
+break;
+case 5:
+printf("Friday");
+break;
+case 6:
+printf("Saturday");
+break;
+case 7:
+printf("Sunday");
+break;
+default:
+printf("Invalid input");
+break;
+}
+
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int m;
+printf("Enter the number of month\n");
+scanf("%d",&m);
+switch(m)
+{
+case 1:
+case 3:
+case 5:
+case 7:
+case 8:
+case 10:
+case 12:
+printf("This month has 31 days");
+break;
+case 2:
+printf("This month has 28 days or 29 days");
+break ;
+case 4:
+case 6:
+case 9:
+case 11:
+printf("This month has 30 days");
+break;
+
+}
+
+    return 0;
+}
+
+3.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char c;
+printf("Enter an alphabet\n");
+scanf("%c",&c);
+switch(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
+{
+    case 1:
+    printf("The character is a vowel");
+    break;
+    
+    case 0:
+    printf("The character is a consonant");
+    break;
+    default:
+    printf("Invalid input");
+    break;
+}
+return 0;
+}
+
+
+
+
+
+4:
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b;
+printf("Enter two numbers\n");
+scanf("%d\n%d",&a,&b);
+switch(a>b)
+{
+    case 1:
+    printf("a %d is greater than b %d",a,b);
+    break;
+    case 0:
+    printf("b %d is greater than a %d",b,a);
+    break;
+    default:
+    printf("Invalid input");
+    break;
+}
+    return 0;
+
+   
+}
+
+5:
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int num;
+printf("Enter a number\n");
+scanf("%d",&num);
+switch(num%2==0)
+{
+    case 1:
+    printf("The number is even");
+    break;
+    case 0:
+    printf("The number is odd");
+    break;
+    default:
+    printf("Invalid Input");
+}
+    return 0;
+}
+
+6:
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Enter a number\n");
+    scanf("%d",&num);
+    switch(num==0)
+    {
+        case 1:
+        printf("The number is 0");
+        break;
+        case 0:
+        if(num>0){
+        
+        printf("The number is positive");
+    }
+        else
+        {
+            printf("The number is negetive");
+        }
+        break;
+        default:
+        printf("Invalid input");
+        break;
+    }
+
+    return 0;
+}
+
+7:
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n,c,a,b;
+    printf("Enter 1 for addition, 2 for substraction ,3 for multiplication,4 for division\n");
+    scanf("%d",&n);
+    printf("Enter two numbers\n");
+    scanf("%d\n%d",&a,&b);
+    switch(n)
+    {
+    case 1 :
+    c=a+b;
+    printf("Addition of two number is %d",c);
+    break;
+    case 2 :
+    c=a-b;
+    printf("Substraction of two number is %d",c);
+    break;
+    case 3:
+    c=a*b;
+    printf("Multiplication of two number is %d",c);
+    break;
+    case 4:
+    c=a/b;
+    printf("division of two numbers is %d",c);
+    break;
+    default:
+    printf("Invalid Input");
+    break;
+}
+
+    return 0;
+}
+
+8:
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int a,b,c,x1,x2;
+    printf("Enter the roots of the equation");
+    scanf("%dx^2+%dx+%d",&a,&b,&c);
+    switch(b*b>4*a*c)
+    {
+        case 1:
+        printf("The roots of the equation are real");
+        x1=-b+sqrt()
+    }
+    
+    
+
+    return 0;
+}
+

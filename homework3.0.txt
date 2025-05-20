@@ -1,0 +1,479 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    printf("Enter two numbers\n");
+    scanf("%d\n%d",&a,&b);
+    if(a>b)
+    {
+        printf("ais greater than b");
+        
+    }
+    else
+    {
+        printf("b is greater than a");
+    }
+    return 0;
+}
+
+output
+Enter two numbers
+90
+890
+b is greater than a
+
+=== Code Execution Successful ===
+
+2.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter three numbers\n");
+    scanf("%d\n%d\n%d",&a,&b,&c);
+  if (a>b&&a>c)
+  {
+printf("a is the greatest");
+  }
+else if (b>c)
+{
+    printf("b is greatest");
+    
+}
+else
+{
+    printf("c is greatest");
+}
+    return 0;
+}
+
+
+3.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter a numbers\n");
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("a is positive");
+        
+    }
+    else if (a<0)
+    {
+        printf("a is negetive");
+        
+    }
+    else 
+    {
+        printf("a is 0");
+    }
+    return 0;
+}
+
+
+4.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter a number\n");
+    scanf("%d",&a);
+    if(a%5==0&&a%11==0)
+    {
+        printf("a is the required number");
+        
+    }
+    else
+    {
+        printf("a is not the required number");
+        
+    }
+    return 0;
+}
+
+5.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter a number\n");
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("a is even");
+        
+    }
+    else
+    {
+        printf("a is odd");
+    }
+    return 0;
+}
+
+6.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter a year\n");
+    scanf("%d",&a);
+    if(a%4==0)
+    {
+        printf("a is a leap year");
+        
+    }
+    else
+    {
+        printf("a is not a leap year");
+    }
+    return 0;
+}
+
+7.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char a;
+    printf("enter a character\n");
+    scanf("%c",&a);
+    if(a>='a'&&a<='z'||a>='A'&&a<='Z')
+    {
+        printf("a is an alphabet");
+        
+    }
+    else
+    {
+        printf("a is not an alphabet");
+    }
+    return 0;
+}
+
+8.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char a;
+    printf("Enter a character\n");
+    scanf("%c",&a);
+    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
+    {
+        printf("The character is a vowel");
+        
+    }
+else
+{
+    printf("The character is a consonant");
+    
+}
+    return 0;
+}
+
+9.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char a;
+    printf("Enter a character\n");
+    scanf("%c",&a);
+if(a>='a'&&a<='z'||a>='A'&&a<='Z')
+{
+    printf("\nThe character %c is an alphabet",a);
+    
+}
+else if (a>='0'&&a<='9')
+{
+    printf("\nThe character %c is a number");
+    
+}
+else
+{
+    printf("\nThe character %c is a special character");
+    
+}
+return 0;
+    }
+    
+10.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char a;
+    printf("Enter a character\n");
+    scanf("%c",&a);
+if(a>='a'&&a<='z')
+{
+    printf("The character %c is lower case",a);
+    
+}
+else if(a>='A'&&a<='Z')
+{
+    printf("The character %c is Upper case",a);
+    
+}
+else
+{
+    printf("The character %c is not an alphabet",a);
+}
+return 0;
+    }
+    
+11.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char a;
+    printf("Enter a character\n");
+    scanf("%c",&a);
+if(a>='a'&&a<='z')
+{
+    printf("The character %c is lower case",a);
+    
+}
+else if(a>='A'&&a<='Z')
+{
+    printf("The character %c is Upper case",a);
+    
+}
+else
+{
+    printf("The character %c is not an alphabet",a);
+}
+return 0;
+    }
+
+12.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter week number\n");
+    scanf("%d",&a);
+    if(a==1)
+{
+    printf("Monday");
+}
+else if(a==2)
+{
+    printf("Tuesday");
+}
+else if(a==3)
+{
+    printf("Wednesday");
+}
+else if(a==4)
+{
+    printf("Thursday");
+}
+else if(a==5)
+{
+    printf("Friday");
+}
+else if(a==6)
+{
+    printf("Saturday");
+}
+else
+{
+    printf("sunday");
+}
+
+
+return 0;
+    }
+    
+
+
+
+13.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter month number\n");
+scanf("%d",&a);
+if(a==1||a==3||a==5||a==7||a==8||a==10||a==12)
+{
+    printf("Number of days in this month is 31");
+}
+else if(a==2)
+{
+    printf("Number of days in this month is either 28 or 29");
+    
+}
+else
+{
+    printf("number of days in this month is 30");
+}
+return 0;
+    }
+    
+15
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter angle of a triangle\n");
+    scanf("%d\n%d\n%d",&a,&b,&c);
+    if(a+b+c==180)
+    {
+        printf("It is a triangle");
+    }
+else
+{
+    printf("It is not a triangle");
+}
+return 0;
+    }
+    
+16.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter three sides of a triangle\n");
+    scanf("%d\n%d\n%d",&a,&b,&c);
+    if((a+b>c)&&(b+c>a)&&(c+a>b))
+    {
+        printf("The given sides form a triangle\n");
+
+    }
+    else
+    {
+        printf("The given sides does not form a triangle");
+    }
+    return 0;
+    
+    }
+    
+17.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter three sides of a triangle\n");
+    scanf("%d\n%d\n%d",&a,&b,&c);
+    if(a==b&&a==c)
+    {
+        printf("It is a equilateral triangle");
+        
+    }
+    else if(a==b&&a!=c||b==c&&b!=a||c==a&&c!=b)
+    {
+        printf("It is an isosceles triangle");
+        
+    }
+    else
+    {
+        printf("It is a scalene triangle");
+    }
+    return 0;
+    
+    }
+18.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c,x1,x2;
+    
+    printf("Enter coefficiants of a quadratic equation\n");
+    scanf("%d\n%d\n%d",&a,&b,&c);
+    x1=(-b+(b*b-4*a*c)/2*a);
+    x2=(-b-(b*b-4*a*c)/2*a);
+    printf("The roots of the quadratic equation are\n");
+    printf("%d\n",x1);
+    printf("%d\n",x2);
+    return 0;
+    
+    }
+    
+19.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int cp,sp,pr,loss;
+    printf("Enter cost price and selling price\n");
+    scanf("%d\n%d",&cp,&sp);
+    if(cp>sp)
+    {
+        loss=cp-sp;
+        printf("Its a loss of %d",loss);
+    }
+    else
+    {
+        pr=sp-cp;
+        printf("Its a profit of %d",pr);
+    }
+    return 0;
+    
+    }
+    
+20.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

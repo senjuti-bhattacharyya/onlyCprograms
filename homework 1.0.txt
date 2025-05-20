@@ -1,0 +1,474 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a;
+    float b;
+    char c;
+    //input three data types
+    printf("Enter an integer data type\nEnter an float data type\nEnter a character data type\n");
+    scanf("%d\n%f\n%c",&a,&b,&c);
+    //output of those same data type
+    printf("\n\n%d\n%f\n%c",a,b,c);
+    return 0;
+    
+    
+    
+    
+    
+    
+}
+Enter an integer data type
+Enter an float data type
+Enter a character data type
+8
+9.09
+i
+
+
+8
+9.090000
+i
+  
+
+
+2.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter two numbers\n");
+    scanf("%d\n%d",&a,&b);
+    c=a+b;
+    printf("sum of two number is %d",c);
+    return 0;
+}
+ OUTPUT
+Enter two numbers
+90
+90
+sum of two number is 180
+
+=== Code Execution Successful ===
+
+
+3.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d,e,f;
+    printf("enter two numbers\n");
+    scanf("%d\n%d",&a,&b);
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    printf("Addition,Substraction,Multiplication,Division of the two numbers respectively are \n%d\n%d\n%d\n%d",c,d,e,f);
+    
+
+    return 0;
+}
+OUTPUT
+enter two numbers
+90
+70
+Addition,Substraction,Multiplication,Division of the two numbers respectively are 
+160
+20
+6300
+1
+
+=== Code Execution Successful ===
+
+
+
+4.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float a,b,c;
+    printf("enter length and breadth of a rectangle respectively\n");
+    scanf("%f\n%f",&a,&b);
+    c=(2*a)+(2*b);
+    printf("\nperimeter of the rectangle is %f",c);
+    
+
+    return 0;
+}
+
+OUTPUT
+enter length and breadth of a rectangle respectively
+90.0
+80.0
+
+perimeter of the rectangle is 340.000000
+
+=== Code Execution Successful ===
+
+5.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float a,b,c;
+printf("Enter two length and breadth of a rectangle\n");
+scanf("%f\n%f",&a,&b);
+c=a*b;
+printf("\nArea of the reactangle is %f",c);
+return 0;
+}
+OUTPUT
+Enter two length and breadth of a rectangle
+90.0
+80.0
+
+Area of the reactangle is 7200.000000
+
+=== Code Execution Successful ===
+
+
+6.
+#include <stdio.h>
+
+int main() {
+float a,b,c,d,ar;
+printf("Enter radius of a circle\n");
+scanf("%f",&a);
+d=2*a;
+c=d*3.144;
+ar=3.144*a*a;
+printf("The diameter,circumferance,area of a circle are respectively \n%f\n%f\n%f",d,c,ar);
+return 0;
+
+}
+
+OUTPUT
+Enter radius of a circle
+9.08
+The diameter,circumferance,area of a circle are respectively 
+18.160000
+57.095039
+259.211487
+
+=== Code Execution Successful ===
+
+7.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float l,m,km;
+printf("Enter length in centimeter\n");
+scanf("%f",&l);
+m=l/100.0;
+km=l/100000.0;
+printf("Length in meter and kilometer are \n%f\n%f",m,km);
+return 0;
+
+}
+
+OUTPUT
+Enter length in centimeter
+90.0
+Length in meter and kilometer are 
+0.900000
+0.000900
+
+=== Code Execution Successful ===
+
+8.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float c,f;
+printf("enter a temperature in celcius\n");
+scanf("%f",&c);
+f=c*(9/5)+32.0;
+printf("temperature in fahrenhite %f",f);
+return 0;
+
+}
+OUTPUT
+enter a temperature in celcius
+90
+temperature in fahrenhite 122.000000
+
+=== Code Execution Successful ===
+
+9.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float c,f;
+printf("Enter temperature in fahrenhite\n");
+scanf("%f",&f);
+c=f*(5/9)+32;
+printf("\nTemperature in celcius is %f",c);
+
+return 0;
+
+}
+
+OUTPUT
+Enter temperature in fahrenhite
+890
+
+Temperature in celcius is 32.000000
+
+=== Code Execution Successful ===
+
+10.
+#include <stdio.h>
+
+int main() {
+    float d,y,w;
+printf("Enter a number of days\n");
+scanf("%f",&d);
+y=d/365.0;
+w=d/7.0;
+printf("Numbers of days in years, weeks and days are respectively \n%f\n%f\n%f",y,w,d);
+
+return 0;
+
+}
+OUTPUT
+Enter a number of days
+365
+Numbers of days in years, weeks and days are respectively 
+1.000000
+52.142857
+365.000000
+
+=== Code Execution Successful ===
+
+11.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float x,y,p;
+    int i;
+    printf("Enter a number and the power number\n");
+    scanf("%f\n%f",&x,&y);
+    for(i=1;i<=y;i++)
+{
+    p=x*x;
+}
+printf("The required output is %f",p);
+return 0;
+
+}
+
+OUTPUT
+Enter a number and the power number
+2
+2
+The required output is 4.000000
+
+=== Code Execution Successful ===
+
+
+13.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float a,b,c;
+printf("Enter two angles in a triangle\n");
+scanf("%f\n%f",&a,&b);
+c=180-(a+b);
+printf("The third angle is %f",c);
+return 0;
+}
+
+OUTPUT
+Enter two angles in a triangle
+90
+60
+The third angle is 30.000000
+
+=== Code Execution Successful ===
+
+
+14.
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float b,h,ar;
+printf("Enter base and height of a triangle\n");
+scanf("%f\n%f",&b,&h);
+ar=(0.5)*b*h;
+printf("area of the triangle is %f",ar);
+return 0;
+}
+
+OUTPUT
+Enter base and height of a triangle
+9
+8
+area of the triangle is 36.000000
+
+=== Code Execution Successful ===
+
+15.
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+float a,ar;
+printf("Enter side of an equilateral triangle\n");
+scanf("%f",&a);
+ar=(sqrt(3)/4.0)*a*a;
+printf("The area of an equilateral triangle is %f",ar);
+
+return 0;
+}
+
+OUTPUT
+Enter side of an equilateral triangle
+8
+The area of an equilateral triangle is 27.712812
+
+=== Code Execution Successful ===
+
+12.
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+float a,ar;
+printf("Enter any number\n");
+scanf("%f",&a);
+ar=sqrt(a);
+printf("The square root of any number is %f",ar);
+return 0;
+}
+
+OUTPUT
+Enter any number
+9
+The square root of any number is 3.000000
+
+=== Code Execution Successful ===
+
+16.
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float a,b,c,d,e,avg,t,p;
+    printf("Enter marks of five subjects \n");
+    scanf("%f\n%f\n%f\n%f\n%f",&a,&b,&c,&d,&e);
+    avg=(a+b+c+d+e)/5.0;
+    t=a+b+c+d+e;
+    p=(t/500.0)*100.0;
+    printf("The total ,average and percentage \n%f\n%f\n%f",t,avg,p);
+    return 0;
+    
+
+}
+
+OUTPUT
+Enter marks of five subjects 
+90
+0
+80
+5
+99
+The total ,average and percentage 274.000000
+54.799999
+54.799999
+
+=== Code Execution Successful ===
+
+17.
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float P,T,R,SI;
+    printf("Enter principle ,time period,rate of interest\n");
+    scanf("%f\n%f\n%f",&P,&T,&R);
+    SI=(P*R*T)/100.0;
+    printf("The simple interest is %f",SI);
+    return 0;
+    
+
+}
+
+OUTPUT
+Enter principle ,time period,rate of interest
+900
+1
+6.0
+The simple interest is 54.000000
+
+=== Code Execution Successful ===
+
+
+18.
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float P,T,R,CI;
+    int i;
+    printf("Enter principle,rate of interest and time period\n");
+    scanf("%f\n%f\n%f",&P,&R,&T);
+    for (i=1;i<=T;i++)
+    {
+        CI=(P*(1+R/100.0))*(P*(1+R/100.0));
+        
+    }
+    CI=CI-P;
+    printf("The compound interest is %f",CI);
+    return 0;
+    
+
+}
+
+OUTPUT
+Enter principle,rate of interest and time period
+9000
+5
+3
+The compound interest is 89293496.000000
+
+=== Code Execution Successful ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+1.Diamond shape
+
+#include <stdio.h>
+
+int main() {
+    int i=1,n,a=1,k=1;
+    
+    printf("Print diamond,enter size\n");
+    scanf("%d",&n); 
+    int j=n/2;
+    while(i<=n/2)
+    {
+        while(j>a)
+        {
+          printf("  ");
+          j--;
+        }
+        while(k<=i)
+        {
+            printf(" *  ");
+            k++;
+        }
+        printf("\n");
+        a++;
+        i++;
+        j=n/2;
+        k=1;
+    }a=n/2;
+    i=1;j=1;
+    while(i<=n/2)
+    {
+        while(j<=i)
+        {
+         printf("  ");
+         j++;
+    } while(k<a)
+    {
+      printf(" *  ");
+      k++;
+    }printf("\n");
+    a--;i++;j=1;k=1 ;
+}
+    return 0;
+}
+
+
+2. HOLLOW SQUARE
+int main() {
+    int i=1,j=1,k=1,l=1,m=1,a;
+    printf("Enter side of the square\n");
+    scanf("%d",&a);
+    
+        while(j<=a)
+        {
+            printf(" * ");
+            j++;
+        }
+        printf("\n");
+        while(k<=a-2)
+        {
+            printf(" *");
+            while(l<=a-2)
+            {
+                printf("   ");
+                l++;
+            }printf("  *");
+            printf("\n");
+            l=1;
+            k++;
+        }
+    while(m<=a)
+        {
+            printf(" * ");
+            m++;
+        }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
